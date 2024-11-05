@@ -13,7 +13,7 @@ import { ChackoutComponent } from '../componants/chackout/chackout.component';
 import { SucsesseComponent } from '../componants/sucsesse/sucsesse.component';
 
 export const routes: Routes = [
-  { path: '', redirectTo: 'login', pathMatch: 'full' },
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
   // { path: '', component: HomeComponent },
   { path: 'about', component: AboutComponent },
